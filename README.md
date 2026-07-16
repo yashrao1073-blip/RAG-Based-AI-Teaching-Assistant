@@ -89,6 +89,3 @@ Generated Answer
 - Conversation history
 - Source citations with confidence scores
 
-## License
-
-This project is licensed under the MIT License.
