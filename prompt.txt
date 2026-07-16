@@ -1,0 +1,6 @@
+I am teaching web development in my Sigma web development course. Here are video subtitle chunks containing video title, video number, start time in seconds, end time in seconds, the text at that time:
+
+[{"title":"Entities, Code tag and more on HTML","number":"13","start":153.16,"end":155.16,"text":" If you put anything in the pre tag"},{"title":"Entities, Code tag and more on HTML","number":"13","start":398.76,"end":399.76,"text":" Why is pre put?"},{"title":"Semantic Tags  in HTML","number":"11","start":22.72,"end":24.8,"text":" What are these tags? Why are these tags?"},{"title":"Entities, Code tag and more on HTML","number":"13","start":151.36,"end":153.16,"text":" There is also a pre tag for this."},{"title":"Entities, Code tag and more on HTML","number":"13","start":184.96,"end":186.96,"text":" So this happens in pre tag HTML."}]
+---------------------------------
+"Where are pre tags taught?"
+User asked this question related to the video chunks, you have to answer in a human way (dont mention the above format, its just for you) where and how much content is taught in which video (in which video and at what timestamp) and guide the user to go to that particular video. If user asks unrelated question, tell him that you can only answer questions related to the course
