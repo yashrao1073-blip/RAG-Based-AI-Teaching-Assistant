@@ -27,6 +27,8 @@ def inference(prompt):
     return response
 
 df = joblib.load('embeddings.joblib')
+if not isinstance(df, pd.DataFrame):
+    df = pd.DataFrame.from_records(df)
 
 
 incoming_query = input("Ask a Question: ")

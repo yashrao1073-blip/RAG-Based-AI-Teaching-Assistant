@@ -2,7 +2,6 @@ import requests
 import os
 import json
 import joblib
-import pandas as pd
 
 BATCH_SIZE = 64
 
@@ -57,6 +56,7 @@ for json_file in jsons:
 
 print(f"\nFinished! Total chunks embedded: {len(my_dicts)}")
 
-df = pd.DataFrame.from_records(my_dicts)
-# Save this dataframe
-joblib.dump(df, 'embeddings.joblib')
+# Save plain records instead of a pandas dataframe. This keeps the embedding
+# index readable across pandas versions (DataFrame pickles can break when the
+# stored StringDtype changes between environments).
+joblib.dump(my_dicts, 'embeddings.joblib')
