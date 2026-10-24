@@ -1,7 +1,0 @@
-I see you're having some trouble understanding the pre tags in HTML.
-
-The concept of pre tags is actually covered in Video 13 of our web development course. To be more specific, pre tags are introduced at around 151 seconds into the video (that's about 2 minutes and 11 seconds in). The instructor explains that there is also a pre tag for this, which refers to another type of code tag.
-
-Later on, in the same video, at approximately 398 seconds (about 6 minutes and 38 seconds), the instructor talks about why pre tags are used. They explain that it's because pre tags allow us to display HTML code directly, without interpreting it as regular text.
-
-If you're interested in learning more about pre tags, I'd recommend checking out Video 13 of our course. Specifically, start watching from around the 2-minute mark and you'll find the instructor explaining the basics of pre tags. Let me know if you have any further questions or need clarification on anything!
